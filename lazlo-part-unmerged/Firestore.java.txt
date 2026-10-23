@@ -1,0 +1,18 @@
+package com.example.peertutoring.activities;
+
+public class Firestore {
+    const firebaseConfig = {
+        apiKey: "REMOVED-see-google-services.json",
+                authDomain: "com.group1.peertutoring",
+                projectId: "peertutoringplatform-92ae9", // <-- Firestore uses this to connect!
+                storageBucket: "peertutoringplatform-92ae9.firebasestorage.app",
+                messagingSenderId: "1:610577073728:android:0a3e1e1cf9eb8a442a01a5",
+                appId: "610577073728"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Initialize Cloud Firestore
+    const db = getFirestore(app);
+}

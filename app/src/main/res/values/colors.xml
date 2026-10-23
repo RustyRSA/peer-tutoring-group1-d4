@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Brand Colors -->
+    <color name="brand_blue">#1A56DB</color>
+    <color name="brand_blue_dark">#1E40AF</color>
+    <color name="brand_blue_light">#EBF5FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F9FAFB</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#111928</color>
+    <color name="text_secondary">#6B7280</color>
+
+    <!-- Status Chip Colors -->
+    <color name="status_bg">#E1EFFE</color>
+    <color name="status_text">#1E429F</color>
+
+    <!-- Quick Action Icon Backgrounds & Colors -->
+    <color name="icon_home_bg">#EBF5FF</color>
+    <color name="icon_home">#1A56DB</color>
+    <color name="icon_search_bg">#F3E8FF</color>
+    <color name="icon_search">#7E3AF2</color>
+    <color name="icon_msg_bg">#DEF7EC</color>
+    <color name="icon_msg">#0E9F6E</color>
+    <color name="icon_profile_bg">#FEECDC</color>
+    <color name="icon_profile">#F97316</color>
+    <color name="icon_admin_bg">#F3F4F6</color>
+    <color name="icon_admin">#374151</color>
+
+
+
+        <!-- Light Theme Colors -->
+        <color name="purple_40">#6650a4</color>
+        <color name="purple_grey_40">#625b71</color>
+        <color name="pink_40">#7D5260</color>
+
+        <!-- Dark Theme Colors -->
+        <color name="purple_80">#D0BCFF</color>
+        <color name="purple_grey_80">#CCC2DC</color>
+        <color name="pink_80">#EFB8C8</color>
+</resources>

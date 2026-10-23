@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/off_white">
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@color/white"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvRatingSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="32dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="32dp">
+                <ImageView android:id="@+id/star1" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_star_24" android:contentDescription="@string/rating_star_1" android:layout_marginEnd="8dp" />
+                <ImageView android:id="@+id/star2" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_star_24" android:contentDescription="@string/rating_star_2" android:layout_marginEnd="8dp" />
+                <ImageView android:id="@+id/star3" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_star_24" android:contentDescription="@string/rating_star_3" android:layout_marginEnd="8dp" />
+                <ImageView android:id="@+id/star4" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_star_24" android:contentDescription="@string/rating_star_4" android:layout_marginEnd="8dp" />
+                <ImageView android:id="@+id/star5" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_star_24" android:contentDescription="@string/rating_star_5" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilRatingComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:hint="@string/rating_comment_hint"
+                app:boxStrokeColor="@color/brand_blue"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etRatingComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:maxLength="500"
+                    android:minLines="3" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSubmitRating"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/btn_submit_rating"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp"
+                app:backgroundTint="@color/brand_blue" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/bottom_nav" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EduVosTutoring" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorPrimaryVariant">@color/brand_blue_dark</item>
+        <item name="colorSecondary">@color/brand_blue_light</item>
+    </style>
+
+
+
+
+
+        <style name="Theme.PeerTutoring" parent="Theme.Material3.DayNight.NoActionBar">
+            <!-- Primary brand color -->
+            <item name="colorPrimary">@color/purple_40</item>
+            <item name="colorSecondary">@color/purple_grey_40</item>
+            <item name="colorTertiary">@color/pink_40</item>
+
+            <!-- Status bar color (optional, matches default) -->
+            <item name="android:statusBarColor">?attr/colorSurface</item>
+        </style>
+
+        <!-- XML equivalent of Type.kt (bodyLarge) -->
+        <style name="TextAppearance.PeerTutoring.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:textSize">16sp</item>
+            <item name="android:lineHeight">24sp</item>
+            <item name="android:letterSpacing">0.03125</item> <!-- 0.5sp converted to em equivalent -->
+        </style>
+
+</resources>

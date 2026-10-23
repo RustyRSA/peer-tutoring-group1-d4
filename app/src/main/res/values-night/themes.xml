@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PeerTutoring" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.EduVosTutoring" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorPrimaryVariant">@color/brand_blue_dark</item>
+        <item name="colorSecondary">@color/brand_blue_light</item>
+    </style>
+
+
+        <style name="Theme.PeerTutoring" parent="Theme.Material3.DayNight.NoActionBar">
+            <!-- Primary brand color -->
+            <item name="colorPrimary">@color/purple_80</item>
+            <item name="colorSecondary">@color/purple_grey_80</item>
+            <item name="colorTertiary">@color/pink_80</item>
+
+            <!-- Status bar color (optional, matches default) -->
+            <item name="android:statusBarColor">?attr/colorSurface</item>
+        </style>
+
+</resources>

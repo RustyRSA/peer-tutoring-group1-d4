@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">PeerTutoring</string>
+    <string name="admin">Admin</string>
+    <string name="role_popup_title">Signed in as</string>
+    <string name="role_popup_message">Name: %1$s\nEmail: %2$s\nRole: %3$s\nAdmin buttons shown: %4$s</string>
+    <string name="role_popup_yes">Yes</string>
+    <string name="role_popup_no">No</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_morning">Good morning, Username!</string>
+    <string name="greeting_sub">Your goals matter. We\'re here to help you reach them.</string>
+    <string name="banner_title">Keep up the great work!</string>
+    <string name="banner_sub">You\'re making progress. Small steps lead to big results.</string>
+    <string name="upcoming_sessions">Upcoming Sessions</string>
+    <string name="view_all">View All</string>
+
+    <!-- Lists (Search and Home) -->
+    <string name="no_tutors_found">No tutors found.</string>
+    <string name="no_upcoming_sessions">No upcoming sessions.</string>
+    <string name="unknown_name">Unknown</string>
+    <string name="no_subjects_listed">No subjects listed</string>
+    <string name="no_ratings_yet">No ratings yet</string>
+    <string name="rating_format">★ %1$.1f (%2$d ratings)</string>
+    <string name="with_tutor">With %1$s</string>
+    <string name="btn_cancel_session">Cancel Session</string>
+    <string name="btn_rate_tutor">Rate Tutor</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_decline">Decline</string>
+    <string name="btn_mark_completed">Mark Completed</string>
+    <string name="session_cancel_title">Cancel session?</string>
+    <string name="session_cancel_message">This removes your %1$s request with %2$s.</string>
+    <string name="session_cancelled_toast">Session cancelled.</string>
+    <string name="session_updated_toast">Session updated.</string>
+
+    <!-- Quick Actions -->
+    <string name="quick_home">Home</string>
+    <string name="quick_search">Search</string>
+    <string name="quick_messages">Messages</string>
+    <string name="quick_profile">Profile</string>
+
+    <!-- Bottom Banner -->
+    <string name="bottom_banner_title">Built for your study goals</string>
+    <string name="bottom_banner_sub">Access study resources, join group sessions, and get the support you need.</string>
+    <string name="explore">Explore</string>
+
+    <!-- Login & Register -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_sub">Sign in to continue</string>
+    <string name="label_email">Username (Email)</string>
+    <string name="label_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="link_register">Don\'t have an account? Register</string>
+    <string name="register_title">Create Account</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_role">I am a:</string>
+    <string name="btn_register">Register</string>
+
+    <!-- Tutor Search -->
+    <string name="search_title">Find a Tutor</string>
+    <string name="search_hint">Search by subject or name...</string>
+    <string name="filter_subject">Subject</string>
+    <string name="filter_rating">Rating 4+</string>
+    <string name="filter_subject_selected">Subject: %1$s</string>
+    <string name="filter_all_subjects">All subjects</string>
+    <string name="filter_pick_subject">Choose a subject</string>
+    <string name="filter_no_subjects">No subjects to choose from yet.</string>
+    <string name="btn_view_profile">View Profile</string>
+
+    <!-- Tutor Profile -->
+    <string name="credentials_title">Credentials</string>
+    <string name="subjects_offered_title">Subjects Offered</string>
+    <string name="btn_request_session">Request Session</string>
+    <string name="btn_message_tutor">Message</string>
+    <string name="tutor_profile_rating_format">Rating: %1$.1f ★ (%2$d reviews)</string>
+    <string name="tutor_profile_no_rating">No ratings yet</string>
+    <string name="tutor_profile_year_format">Year of Study: %1$d</string>
+    <string name="no_credentials">No credentials listed.</string>
+    <string name="reviews_title">Reviews</string>
+    <string name="no_reviews">No reviews yet.</string>
+    <string name="review_header_format">★ %1$d  ·  %2$s</string>
+
+    <!-- Booking Request -->
+    <string name="booking_title">Request Session with Thabo</string>
+    <string name="label_subject">Subject</string>
+    <string name="label_date">Preferred Date</string>
+    <string name="label_time">Preferred Time</string>
+    <string name="label_topic">Topic Description</string>
+    <string name="btn_send_request">Send Request</string>
+    <string name="booking_with">With %1$s</string>
+    <string name="booking_error_subject">Choose a subject.</string>
+    <string name="booking_error_date">Choose a date.</string>
+    <string name="booking_error_time">Choose a time.</string>
+    <string name="booking_error_past">Pick a time in the future.</string>
+    <string name="booking_error_topic">Describe what you need help with.</string>
+    <string name="booking_sent">Request sent! You will be notified when the tutor responds.</string>
+
+    <!-- Messages -->
+    <string name="messages_title">Messages</string>
+    <string name="inbox_title">Inbox</string>
+    <string name="chat_hint">Type a message...</string>
+    <string name="chat_empty">No messages yet. Say hello!</string>
+    <string name="no_conversations">No conversations yet.\nMessage a tutor from their profile to get started.</string>
+    <string name="btn_send">Send</string>
+
+    <!-- Profile -->
+    <string name="profile_title">My Profile</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_university">University Name</string>
+    <string name="label_years_study">Years of Study</string>
+    <string name="label_programme">Programme</string>
+    <string name="label_subjects">Subjects</string>
+    <string name="label_tutor_subjects">Subjects you can tutor (comma separated)</string>
+    <string name="label_credentials">Credentials (results, certificates, experience)</string>
+    <string name="register_tutor_note">An administrator reviews tutor applications before you appear in search.</string>
+    <string name="error_tutor_subjects_required">Enter at least one subject you can tutor.</string>
+    <string name="tutor_status_none">Tutor application: not submitted. Add the subjects you can tutor and save to apply.</string>
+    <string name="tutor_status_pending">Tutor application: pending admin approval.</string>
+    <string name="tutor_status_approved">Tutor application: approved.</string>
+    <string name="tutor_status_rejected">Tutor application: rejected. Change your subjects or credentials and save to apply again.</string>
+    <string name="btn_save_changes">Save Changes</string>
+    <string name="profile_saved">Profile saved.</string>
+    <string name="profile_saved_tutor_pending">Profile saved. Your tutor status is pending admin approval.</string>
+    <string name="profile_first_name_required">First name can\'t be empty.</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_title">Admin Dashboard</string>
+    <string name="analytics_title">Analytics</string>
+    <string name="review_apps_title">Review Applications</string>
+    <string name="manage_accounts_title">Manage Accounts</string>
+    <string name="admin_stat_users">Users</string>
+    <string name="admin_stat_tutors">Tutors</string>
+    <string name="admin_stat_pending">Pending</string>
+    <string name="admin_stat_suspended">Suspended</string>
+    <string name="no_pending_applications">No applications to review.</string>
+    <string name="no_accounts">No other accounts yet.</string>
+    <string name="btn_approve">Approve</string>
+    <string name="btn_reject">Reject</string>
+    <string name="btn_suspend">Suspend</string>
+    <string name="btn_reactivate">Reactivate</string>
+    <string name="admin_account_details">%1$s · %2$s · %3$s</string>
+    <string name="admin_reject_title">Reject application?</string>
+    <string name="admin_reject_message">%1$s will not be shown to students as a tutor.</string>
+    <string name="admin_suspend_title">Suspend account?</string>
+    <string name="admin_suspend_message">%1$s will be signed out and unable to log in until reactivated.</string>
+    <string name="admin_updated">Updated.</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="mark_all_read">Mark all read</string>
+    <string name="no_notifications">You\'re all caught up.</string>
+
+    <!-- Rating -->
+    <string name="rating_title">Rate your session</string>
+    <string name="rating_sub">How was your session with %1$s?</string>
+    <string name="rating_pick_stars">Tap a star to choose your rating.</string>
+    <string name="rating_thanks">Thanks for your rating!</string>
+    <string name="rating_star_1">1 star</string>
+    <string name="rating_star_2">2 stars</string>
+    <string name="rating_star_3">3 stars</string>
+    <string name="rating_star_4">4 stars</string>
+    <string name="rating_star_5">5 stars</string>
+    <string name="rating_comment_hint">Leave a comment (optional)</string>
+    <string name="btn_submit_rating">Submit Rating</string>
+
+    <!-- Added by fixes -->
+    <string name="greeting_format">%1$s, %2$s!</string>
+    <string name="greeting_part_morning">Good morning</string>
+    <string name="greeting_part_afternoon">Good afternoon</string>
+    <string name="greeting_part_evening">Good evening</string>
+    <string name="label_full_name">Full Name</string>
+    <string-array name="roles">
+        <item>Student</item>
+        <item>Tutor</item>
+    </string-array>
+
+    <!-- Authentication -->
+    <string name="link_forgot_password">Forgot password?</string>
+    <string name="btn_logout">Log out</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="logout_title">Log out?</string>
+    <string name="logout_message">You will need to sign in again to use the app.</string>
+    <string name="error_email_required">Enter your email address.</string>
+    <string name="error_email_invalid">Enter a valid email address.</string>
+    <string name="error_email_domain">Use your university email (%1$s).</string>
+    <string name="error_password_required">Enter your password.</string>
+    <string name="error_password_short">Password must be at least 6 characters.</string>
+    <string name="error_passwords_mismatch">Passwords do not match.</string>
+    <string name="error_name_required">Enter your name.</string>
+    <string name="error_name_invalid">Names can only contain letters, spaces, hyphens and apostrophes.</string>
+    <string name="msg_account_created">Account created. Welcome!</string>
+    <string name="msg_reset_sent">If an account exists for that email, a password reset link has been sent.</string>
+</resources>

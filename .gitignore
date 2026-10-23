@@ -1,0 +1,22 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/serviceAccountKey.json
+backend/*firebase-adminsdk*.json
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+.idea/
+*.iml
+
+# Android (project root)
+.gradle/
+/build/
+/captures/
+local.properties
+.externalNativeBuild/
+.cxx/
+.DS_Store

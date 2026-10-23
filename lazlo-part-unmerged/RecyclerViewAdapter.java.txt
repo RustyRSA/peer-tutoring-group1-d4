@@ -1,0 +1,35 @@
+package com.example.peertutoring.activities;
+
+import com.example.peertutoring.R;
+public class RecyclerViewAdapter {
+    public class TutorAdapter extends RecyclerView.Adapter<TutorAdapter.ViewHolder> {
+        private List<Tutor> tutors;
+        public TutorAdapter(List<Tutor> tutors) {
+            this.tutors = tutors;
+        }
+        @Override
+        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.item_tutor, parent, false);
+            return new ViewHolder(view);
+        }
+        @Override
+        public void onBindViewHolder(ViewHolder holder, int position) {
+            Tutor tutor = tutors.get(position);
+            holder.name.setText(tutor.getName());
+            holder.subject.setText(tutor.getSubject());
+        }
+        @Override
+        public int getItemCount() {
+            return tutors.size();
+        }
+        static class ViewHolder extends RecyclerView.ViewHolder {
+            TextView name, subject;
+            ViewHolder(View itemView) {
+                super(itemView);
+                name = itemView.findViewById(R.id.tvName);
+                subject = itemView.findViewById(R.id.tvSubject);
+            }
+        }
+    }
+}
